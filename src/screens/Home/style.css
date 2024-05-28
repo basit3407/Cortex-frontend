@@ -6,3 +6,9 @@
   padding-bottom: 58px;
   background: 'white';
 }
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
