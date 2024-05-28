@@ -3,6 +3,7 @@ import './style.css'
 import FabricDesignDisplay1 from '../../components/HomeScreen/FabricDesignDisplay1'
 import { mockData } from '../../util'
 import NavBar from '../../components/NavBar'
+import BottomBar from '../../components/BottomBar'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
           fabricDesignOptions={mockData.fabricDesignOptions}
         />
       </div>
+      <BottomBar />
     </>
   )
 }

@@ -3,9 +3,9 @@ import ImageContainer2 from '../ImageContainer2'
 import ImageContainer4 from '../ImageContainer4'
 import ImageContainer3 from '../ImageContainer3'
 import ImageContainer from '../ImageContainer'
-import ImageContainer1 from '../ImageContainer1'
 import './style.css'
 import messages from './messages.json'
+import ImageContainer1 from '../ImageContainer1'
 
 function RealizationDisplay() {
   return (

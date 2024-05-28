@@ -7,11 +7,13 @@
   justify-content: flex-start;
   max-width: initial;
   height: 500px;
+  width: 1281px;
   padding-left: 2.5px;
   margin-top: -56px;
-  background: url("/assets/div__1ku4mui_a9e526.png") 50% / cover no-repeat;
+  background: url('/assets/div__1ku4mui_a9e526.png') 50% / cover no-repeat;
   border: none;
   border-radius: 24px;
+  margin: -56px auto 0 auto;
 }
 .material-section {
   display: flex;
@@ -43,7 +45,9 @@
   margin-top: 34px;
   margin-right: 23px;
   margin-left: 20.5px;
-  font: 600 16px Inter, sans-serif;
+  font:
+    600 16px Inter,
+    sans-serif;
   color: white;
   cursor: pointer;
   background: #6a6a45;
