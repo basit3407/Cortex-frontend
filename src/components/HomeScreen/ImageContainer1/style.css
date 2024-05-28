@@ -5,7 +5,7 @@
 .image-container-rectangle {
   box-sizing: border-box;
   display: block;
-  width: 265px;
+  width: 100%;
   max-width: initial;
   height: 436px;
   border: none;

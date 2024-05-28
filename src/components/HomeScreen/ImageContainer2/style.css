@@ -4,7 +4,7 @@
 .image-container-styles {
   box-sizing: border-box;
   display: block;
-  width: 249px;
+  width: 100%;
   max-width: initial;
   height: 369px;
   border: none;
