@@ -11,22 +11,24 @@
   padding: 0;
   margin: 0;
   margin-left: -65px;
-  font: 500 14px/17px Inter, sans-serif;
+  font:
+    500 14px/17px Inter,
+    sans-serif;
   color: #bfbfbf;
   white-space: pre-wrap;
 }
-.separator-line {
+.inner-divider-line {
   flex: 0 0 auto;
   margin-top: -5.5px;
   border-top: 1px solid #bfbfbf;
 }
-.horizontal-layout-box {
+.nested-content-container {
   flex: 0 0 auto;
   padding-right: 44px;
   padding-left: 255px;
   margin-top: -1px;
 }
-.border-box-divider {
+.border-box-full-width-separator {
   box-sizing: border-box;
   width: 100%;
   border-top: 1px solid #bfbfbf;

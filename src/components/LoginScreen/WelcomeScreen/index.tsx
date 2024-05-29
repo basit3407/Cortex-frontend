@@ -14,8 +14,10 @@ function WelcomeScreen() {
           {messages['lrem_ipsum_suledes_plankning_till_heterossade_tosn']}
         </p>
         <button className="button-with-icon_google">
-          <SvgIcon1 className="svg-container" />
-          {messages['login_google']}
+          <div className="inner-row-container">
+            <SvgIcon1 className="svg-container" />
+            <p className="button-text-google">{messages['login_google']}</p>
+          </div>
         </button>
         <StylishContentBox />
         <UserAuthenticationForm />

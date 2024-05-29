@@ -5,9 +5,9 @@ function StylishContentBox() {
   return (
     <div className="center-aligned-text-container">
       <p className="subtle-text">or</p>
-      <div className="separator-line" />
-      <div className="horizontal-layout-box">
-        <div className="border-box-divider" />
+      <div className="inner-divider-line" />
+      <div className="nested-content-container">
+        <div className="border-box-full-width-separator" />
       </div>
     </div>
   )
