@@ -1,11 +1,11 @@
-.container {
+.container-auth {
   display: flex;
   justify-content: center;
   width: 100%;
   background: whitesmoke;
 }
 
-.main-content-container {
+.main-content-container-auth {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
   width: 100%;
 }
 
-.hero-section1 {
+.hero-section1-auth {
   box-sizing: border-box;
   width: 1280px;
   padding-top: 35px;

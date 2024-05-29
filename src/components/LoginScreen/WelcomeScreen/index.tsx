@@ -13,7 +13,7 @@ function WelcomeScreen() {
         <p className="central-text-block">
           {messages['lrem_ipsum_suledes_plankning_till_heterossade_tosn']}
         </p>
-        <button className="button-with-icon">
+        <button className="button-with-icon_google">
           <SvgIcon1 className="svg-container" />
           {messages['login_google']}
         </button>

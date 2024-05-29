@@ -1,17 +1,8 @@
-import './style.css'
 import React from 'react'
+import InputWidget from '../../UI/InputWidget'
 
 function PasswordInputWidget() {
-  return (
-    <div className="center-box">
-      {/* Input Component is detected here. We've generated code using HTML. See other options in "Component library" dropdown in Settings */}
-      <input
-        placeholder="Password"
-        type="text"
-        className="input-field-container input-style-f62::placeholder"
-      />
-    </div>
-  )
+  return <InputWidget placeholder="Password" type="password" />
 }
 
 export default PasswordInputWidget

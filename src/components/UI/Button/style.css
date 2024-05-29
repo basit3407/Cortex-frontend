@@ -1,0 +1,20 @@
+.button-style {
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 auto;
+  min-width: 462px;
+  height: 48px;
+  margin-top: 8px;
+  font:
+    600 16px Inter,
+    sans-serif;
+  color: white;
+  cursor: pointer;
+  background: black;
+  border: none;
+  border-radius: 110px;
+}
+
+.error {
+  color: red;
+}

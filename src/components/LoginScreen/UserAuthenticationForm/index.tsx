@@ -3,6 +3,7 @@ import PasswordInputWidget from '../PasswordInputWidget'
 import './style.css'
 import messages from './messages.json'
 import React from 'react'
+import Button from '../../UI/Button'
 
 function UserAuthenticationForm() {
   return (
@@ -27,8 +28,10 @@ function UserAuthenticationForm() {
         </div>
         <p className="forgot-password-link">{messages['forgot_password']}</p>
       </div>
-      {/* Button Component is detected here. We've generated code using HTML. See other options in "Component library" dropdown in Settings */}
-      <button className="login-button-style">{messages['login']}</button>
+      <Button
+        onClick={() => console.log('do something')}
+        title={messages['login']}
+      />
       <div className="account-info-section">
         <p className="account-info-text-style">{messages['dont_account']}</p>
         <p className="sign-up-link-style">{messages['sign_up']}</p>

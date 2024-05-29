@@ -44,9 +44,10 @@
   white-space: pre-wrap;
 }
 
-.button-with-icon {
+.button-with-icon_google {
   box-sizing: border-box;
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
   gap: 3.5px;
   align-items: center;
   justify-content: center;
