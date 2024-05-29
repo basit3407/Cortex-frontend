@@ -6,7 +6,7 @@ function ImageContainer() {
     <div className="vertical-margin-top-24px">
       <img
         src="/assets/img_1091_2317_e7f1bc.jpeg"
-        className="image-container"
+        className="image-container_blue"
       />
     </div>
   )
