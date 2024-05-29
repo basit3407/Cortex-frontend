@@ -59,6 +59,7 @@ const NavBar = () => {
           <div className="backdrop" onClick={handleCloseModal}></div>
           <div className="modal">
             <CallUsModal
+              onClose={handleCloseModal}
               contactOptionsWithSvgIcons={mockData.contactOptionsWithSvgIcons}
             />
           </div>

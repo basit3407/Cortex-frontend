@@ -1,11 +1,14 @@
+import React from 'react'
 import RenderContactOptions from './RenderContactOptions'
 import './style.css'
 import messages from './messages.json'
-import React from 'react'
 
-function CallUsModal({ contactOptionsWithSvgIcons }) {
+function CallUsModal({ contactOptionsWithSvgIcons, onClose }) {
   return (
     <div className="contact-section_modal">
+      <button className="close-button" onClick={onClose}>
+        &times;
+      </button>
       <div className="contact-info-container1">
         <div className="message-box">
           <p className="heading-text-bold-uppercase-black">
