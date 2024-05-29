@@ -5,7 +5,7 @@ import React from 'react'
 
 function CallUsModal({ contactOptionsWithSvgIcons }) {
   return (
-    <div className="contact-section">
+    <div className="contact-section_modal">
       <div className="contact-info-container1">
         <div className="message-box">
           <p className="heading-text-bold-uppercase-black">

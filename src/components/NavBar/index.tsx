@@ -54,7 +54,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      {/* {showModal && (
+      {showModal && (
         <>
           <div className="backdrop" onClick={handleCloseModal}></div>
           <div className="modal">
@@ -63,7 +63,7 @@ const NavBar = () => {
             />
           </div>
         </>
-      )} */}
+      )}
     </div>
   )
 }

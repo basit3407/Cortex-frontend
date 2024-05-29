@@ -1,4 +1,4 @@
-.contact-section {
+.contact-section_modal {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,9 @@
   flex: 0 0 auto;
   padding: 0;
   margin: 0;
-  font: 600 24px Inter, sans-serif;
+  font:
+    600 24px Inter,
+    sans-serif;
   color: black;
   text-transform: uppercase;
   white-space: pre-wrap;
@@ -37,7 +39,9 @@
   padding: 0;
   margin: 0;
   margin-top: 16px;
-  font: 500 14px Inter, sans-serif;
+  font:
+    500 14px Inter,
+    sans-serif;
   color: #666666;
   white-space: pre-wrap;
 }
@@ -45,7 +49,9 @@
   flex: 0 0 auto;
   padding: 0;
   margin: 0;
-  font: 500 18px Inter, sans-serif;
+  font:
+    500 18px Inter,
+    sans-serif;
   color: black;
   white-space: pre-wrap;
 }
@@ -53,7 +59,9 @@
   flex: 0 0 auto;
   padding: 0;
   margin: 0;
-  font: 400 16px Inter, sans-serif;
+  font:
+    400 16px Inter,
+    sans-serif;
   color: black;
   text-decoration-line: underline;
   white-space: pre-wrap;
