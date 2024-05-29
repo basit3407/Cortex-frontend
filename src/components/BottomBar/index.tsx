@@ -10,7 +10,7 @@ import React from 'react'
 function BottomBar() {
   return (
     <div className="newsletter-section1">
-      <div className="hero-section">
+      <div className="hero-section-bb">
         <NewsletterSubscriptionSection />
         <div className="flex-container-with-icons">
           <div className="navbar-container">
@@ -19,7 +19,7 @@ function BottomBar() {
             <p className="unique-text-block">{messages['about_us']}</p>
           </div>
           <div className="sidebar-container">
-            <img src="/assets/logo_white.png" className="image-container" />
+            <img src="/assets/logo_white.png" className="image-container-bb" />
           </div>
           <div className="flexbox-menu-container">
             <SvgIcon1 className="svg-container" />

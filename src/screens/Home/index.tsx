@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <NavBar />
       <div
-        className="container"
+        className="container-home"
         data-ignore="used only for top most containter width"
       >
         <FabricDesignDisplay1

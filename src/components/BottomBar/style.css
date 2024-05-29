@@ -8,7 +8,7 @@
   background-color: black;
   border: none;
 }
-.hero-section {
+.hero-section-bb {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@
   padding-right: 15px;
   padding-left: 15px;
 }
-.image-container {
+.image-container-bb {
   box-sizing: border-box;
   display: block;
   width: 339px;

@@ -21,7 +21,7 @@ const NavBar = () => {
   }
 
   return (
-    <div className="container">
+    <div className="container-navbar">
       <div className="flex-centered-row">
         <img src="/assets/logo.png" className="product-thumbnail" />
         <div className="navigation-bar">

@@ -1,9 +1,9 @@
+import React from 'react'
 import StylishContentBox from '../StylishContentBox'
 import UserAuthenticationForm from '../UserAuthenticationForm'
 import SvgIcon1 from './icons/SvgIcon1'
 import './style.css'
 import messages from './messages.json'
-import React from 'react'
 
 function WelcomeScreen() {
   return (
@@ -13,7 +13,6 @@ function WelcomeScreen() {
         <p className="central-text-block">
           {messages['lrem_ipsum_suledes_plankning_till_heterossade_tosn']}
         </p>
-        {/* Button Component is detected here. We've generated code using HTML. See other options in "Component library" dropdown in Settings */}
         <button className="button-with-icon">
           <SvgIcon1 className="svg-container" />
           {messages['login_google']}

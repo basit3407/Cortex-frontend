@@ -1,6 +1,7 @@
-.container {
+.container-navbar {
   display: flex;
   justify-content: center;
+  padding: 20px 80px;
 }
 
 .flex-centered-row {
